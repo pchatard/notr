@@ -1,0 +1,9 @@
+main {
+    height: calc(99vh - 80px);
+    margin-top: 80px;
+    padding: 30px;
+}
+
+mat-drawer-container {
+    height: 100%;
+}

@@ -1,0 +1,32 @@
+.note-form {
+    padding: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .2);
+    border-radius: 8px 8px 0 0;
+    background: white;
+    transition: all .3s;
+    transform: translateY(80%);
+}
+
+.note-form.show {
+    /* padding-bottom: 300px; */
+    transform: translateY(0%);
+}
+
+h1 {
+    margin: 20px;
+}
+
+form {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+mat-form-field {
+    margin: 10px 0;
+}
+
+button {
+    background-color: #957fef;
+    color: white;
+}

@@ -1,0 +1,6 @@
+<div class="notes-actions">
+    <button mat-raised-button (click)="openNoteForm()">Nouvelle note</button>
+</div>
+<div class="notes-container">
+    <app-note-preview *ngFor="let note of notes" [note]="note"></app-note-preview>
+</div>

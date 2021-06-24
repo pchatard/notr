@@ -1,0 +1,18 @@
+<h3>Menu</h3>
+<div>
+    <a [routerLink]="['']" [routerLinkActive]="'active'" [routerLinkActiveOptions]="{exact: true}"
+        (click)="closeMenu()">
+        <mat-icon>home</mat-icon>
+        <span>Home</span>
+    </a>
+    <a [routerLink]="['notes']" [routerLinkActive]="'active'" [routerLinkActiveOptions]="{exact: true}"
+        (click)="closeMenu()">
+        <mat-icon>text_snippet</mat-icon>
+        <span>Notes</span>
+    </a>
+    <a [routerLink]="['wishlist']" [routerLinkActive]="'active'" [routerLinkActiveOptions]="{exact: true}"
+        (click)="closeMenu()">
+        <mat-icon>card_giftcard</mat-icon>
+        <span>Wishlist</span>
+    </a>
+</div>
